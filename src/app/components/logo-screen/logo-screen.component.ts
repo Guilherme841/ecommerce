@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-logo-screen',
   standalone: true,
-  imports: [],
+  imports: [RouterLink],
   templateUrl: './logo-screen.component.html',
   styleUrl: './logo-screen.component.scss',
 })
