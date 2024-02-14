@@ -1,11 +1,12 @@
 <section class="container-img" #containerImg>
-  <img id="img1" src="../../../assets/png/image1.png" />
-  <img id="img2" src="../../../assets/png/image2.png" #img2 />
-  <img id="img3" src="../../../assets/png/image3.png" />
+  <img id="img1" src="../../../assets/png/image1.png" #images />
+  <img id="img2" src="../../../assets/png/image2.png" #images />
+  <img id="img3" src="../../../assets/png/image3.png" #images />
 </section>
 <section style="display: flex; gap: 15px">
   <!-- <a routerLink="img1">IMAGE 1</a>
   <a routerLink="img2">IMAGE 2</a>
   <a routerLink="img3">IMAGE 3</a> -->
+  <button (click)="back()">BACK</button>
   <button (click)="next()">NEXT</button>
 </section>
