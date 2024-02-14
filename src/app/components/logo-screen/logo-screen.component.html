@@ -1,13 +1,11 @@
-<section class="carousel">
-  <section class="container-carousel">
-    <div class="div1">div1</div>
-    <div class="div2">div2</div>
-    <div class="div3">div3</div>
-  </section>
-  <section class="container-controls">
-    <a href="#div1">1</a>
-    <a href="#div2">2</a>
-    <a href="#div3">3</a>
-    <a routerLink="'#div2'" >div2RouterLink</a>
-  </section>
+<section class="container-img" #containerImg>
+  <img id="img1" src="../../../assets/png/image1.png" />
+  <img id="img2" src="../../../assets/png/image2.png" #img2 />
+  <img id="img3" src="../../../assets/png/image3.png" />
+</section>
+<section style="display: flex; gap: 15px">
+  <!-- <a routerLink="img1">IMAGE 1</a>
+  <a routerLink="img2">IMAGE 2</a>
+  <a routerLink="img3">IMAGE 3</a> -->
+  <button (click)="next()">NEXT</button>
 </section>

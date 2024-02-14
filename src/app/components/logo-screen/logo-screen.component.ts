@@ -1,4 +1,4 @@
-import { Component, ElementRef, ViewChild } from '@angular/core';
+import { Component, ElementRef, QueryList, ViewChildren } from '@angular/core';
 
 @Component({
   selector: 'app-logo-screen',
@@ -8,9 +8,12 @@ import { Component, ElementRef, ViewChild } from '@angular/core';
   styleUrl: './logo-screen.component.scss',
 })
 export class LogoScreenComponent {
-  @ViewChild('container') containerImg!: ElementRef;
+  @ViewChildren('containerImg') images!: QueryList<ElementRef>;
   constructor() {}
-  scrollToImage(imagemId: string) {
-    console.log(this.containerImg);
+  next() {
+    // this.img2.nativeElement.scrollIntoView();
+    console.log(
+      this.images.forEach((image) => console.log(image.nativeElement))
+    );
   }
 }
