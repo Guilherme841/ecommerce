@@ -1,25 +1,17 @@
-.carousel {
-  height: 100vh;
-  background-color: lightskyblue;
-}
-.carousel .container-carousel {
+.container-img {
   display: flex;
+  gap: 400px;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
+  width: 100%;
 }
-.carousel .container-carousel .div1,
-.carousel .container-carousel .div2,
-.carousel .container-carousel .div3 {
-  height: 200px;
-  background-color: lightgreen;
-  display: grid;
+.container-img img {
+  overflow-x: auto;
   flex-grow: 1;
   flex-shrink: 0;
   flex-basis: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   scroll-snap-align: start;
-  align-items: center;
-  justify-content: center;
 }/*# sourceMappingURL=logo-screen.component.css.map */

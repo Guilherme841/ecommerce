@@ -1,18 +1,10 @@
-<!-- <section class="container-logo">
-  <div class="container-img-logo">
-    <img src="../../../assets/png/logo.png" alt="logo do e-commerce">
-  </div>
-</section> -->
-<section class="carousel">
-  <section class="container-carousel">
-    <div class="div1">div1</div>
-    <div class="div2">div2</div>
-    <div class="div3">div3</div>
-  </section>
-  <section class="container-controls">
-    <a href="#div1">1</a>
-    <a href="#div2">2</a>
-    <a href="#div3">3</a>
-    <a routerLink="'#div2'" >div2RouterLink</a>
-  </section>
+<section id="container" class="container-img">
+  <img id="img1" src="../../../assets/png/image1.png" alt="">
+  <img id="img2" src="../../../assets/png/image2.png" alt="">
+  <img id="img3" src="../../../assets/png/image3.png" alt="">
 </section>
+<div style="display: flex; gap: 15px;">
+  <span (click)="scrollToImage('img1')">IMAGE 1</span>
+  <span (click)="scrollToImage('img2')">IMAGE 2</span>
+  <span (click)="scrollToImage('img3')">IMAGE 3</span>
+</div>
