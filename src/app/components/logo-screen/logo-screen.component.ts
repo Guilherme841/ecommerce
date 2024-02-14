@@ -8,7 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './logo-screen.component.scss',
 })
 export class LogoScreenComponent {
-  constructor() {
-  }
-
+  constructor() {}
 }
