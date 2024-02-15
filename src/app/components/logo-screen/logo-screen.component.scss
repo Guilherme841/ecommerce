@@ -10,6 +10,8 @@
   z-index: 1;
   background-color: #ffffff;
   .box-page-count {
+    display: flex;
+    align-items: center;
     .page {
       font-family: $gothamMedium;
     }
