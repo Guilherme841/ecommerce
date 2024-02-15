@@ -13,6 +13,17 @@
   top: 0;
   width: 100%;
   padding: 18px;
+  z-index: 1;
+}
+
+.btn {
+  padding: 12px;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  font-family: "Gotham Bold";
+  font-size: 1em;
 }
 
 .container-slider {
@@ -57,4 +68,26 @@
   position: absolute;
   bottom: 0;
   width: 100%;
+}
+.container-controls-bottom .btn-next {
+  color: #f83758;
+}
+.container-controls-bottom .box-controls {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.container-controls-bottom .box-controls span {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: lightgray;
+  transition: width 200ms, height 200ms, border-radius 200ms, background-color 200ms;
+}
+.container-controls-bottom .box-controls .activated {
+  border-radius: 5px;
+  height: 10px;
+  width: 45px;
+  background-color: gray;
 }/*# sourceMappingURL=logo-screen.component.css.map */
