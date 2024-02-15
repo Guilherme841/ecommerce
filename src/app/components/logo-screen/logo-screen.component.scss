@@ -1,4 +1,5 @@
 @import "../../sass/_font.scss";
+
 .container-controls-top {
   display: flex;
   justify-content: space-between;
@@ -51,6 +52,7 @@
     p {
       font-family: $gothamMedium;
       color: #a8a8a9;
+      padding: 10px;
     }
   }
 }
