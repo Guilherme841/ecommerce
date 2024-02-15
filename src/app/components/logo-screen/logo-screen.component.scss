@@ -9,6 +9,11 @@
   padding: 18px;
   z-index: 1;
   background-color: #ffffff;
+  .box-page-count {
+    .page {
+      font-family: $gothamMedium;
+    }
+  }
 }
 .btn {
   padding: 12px;
