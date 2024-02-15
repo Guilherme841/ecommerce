@@ -6,6 +6,10 @@
   font-family: "Gotham Bold";
   src: url("../../assets/font/Gotham-Font/GothamBold.ttf") format("truetype");
 }
+@font-face {
+  font-family: "Gotham Medium";
+  src: url("../../assets/font/Gotham-Font/GothamMedium.ttf") format("truetype");
+}
 * {
   margin: 0;
   padding: 0;

@@ -6,6 +6,10 @@
   font-family: "Gotham Bold";
   src: url("../../assets/font/Gotham-Font/GothamBold.ttf") format("truetype");
 }
+@font-face {
+  font-family: "Gotham Medium";
+  src: url("../../assets/font/Gotham-Font/GothamMedium.ttf") format("truetype");
+}
 .container-controls-top {
   display: flex;
   justify-content: space-between;
@@ -14,6 +18,7 @@
   width: 100%;
   padding: 18px;
   z-index: 1;
+  background-color: #ffffff;
 }
 
 .btn {
@@ -59,6 +64,10 @@
 .container-slider .box-desc h1 {
   font-family: "Gotham Bold";
 }
+.container-slider .box-desc p {
+  font-family: "Gotham Medium";
+  color: #a8a8a9;
+}
 
 .container-controls-bottom {
   padding: 18px;
@@ -72,6 +81,9 @@
 .container-controls-bottom .btn-next {
   color: #f83758;
 }
+.container-controls-bottom .btn-prev {
+  color: rgba(23, 34, 59, 0.1254901961);
+}
 .container-controls-bottom .box-controls {
   display: flex;
   gap: 5px;
@@ -82,12 +94,12 @@
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  background-color: lightgray;
+  background-color: rgba(23, 34, 59, 0.1254901961);
   transition: width 200ms, height 200ms, border-radius 200ms, background-color 200ms;
 }
 .container-controls-bottom .box-controls .activated {
   border-radius: 5px;
   height: 10px;
   width: 45px;
-  background-color: gray;
+  background-color: #17223b;
 }/*# sourceMappingURL=logo-screen.component.css.map */

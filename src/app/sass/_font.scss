@@ -8,5 +8,11 @@
   src: url("../../assets/font/Gotham-Font/GothamBold.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "Gotham Medium";
+  src: url("../../assets/font/Gotham-Font/GothamMedium.ttf") format("truetype");
+}
+
 $gothamLight: "Gotham Light";
 $gothamBold: "Gotham Bold";
+$gothamMedium: "Gotham Medium";
