@@ -3,7 +3,7 @@
     <span class="page">{{ i + 1 }}</span>
     <span class="pages">/3</span>
   </div>
-  <button class="btn">Skip</button>
+  <button class="btn" routerLink="/login">Skip</button>
 </section>
 <section class="container-slider">
   <div class="box-img">
@@ -44,5 +44,11 @@
     <span [ngClass]="{ activated: i === 1 }"></span>
     <span [ngClass]="{ activated: i === 2 }"></span>
   </div>
-  <button (click)="next()" class="btn btn-next">Next</button>
+  <button
+    (click)="next()"
+    class="btn btn-next"
+    [textContent]="i === 2 ? 'Get Started' : 'Next'"
+  >
+    Next
+  </button>
 </section>
