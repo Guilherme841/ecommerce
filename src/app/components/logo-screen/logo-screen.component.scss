@@ -9,9 +9,10 @@
   // width: 100%;
   height: 100vh;
   .box-img {
-    // display: grid;
-    // align-items: center;
-    // justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     overflow-x: auto;
     flex-grow: 1;
     flex-shrink: 0;
@@ -20,12 +21,15 @@
     scroll-snap-align: start;
     border: 1px red solid;
     img {
-      width: 100%;
+      width: 300px;
+      height: 300px;
     }
   }
-  // .box-desc {
-    // width: 100%;
-  // }
+  .box-desc {
+    text-align: center;
+    line-height: 2em;
+    max-width: 500px;
+  }
 }
 .container-controls{
   display: flex;
@@ -34,5 +38,5 @@
   position: absolute;
   bottom: 0;
   width: 100%;
-  .box-controls {}
+  // .box-controls {}
 }
