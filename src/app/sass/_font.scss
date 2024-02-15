@@ -2,18 +2,11 @@
   font-family: "Gotham Light";
   src: url("../../assets/font/Gotham-Font/GothamLight.ttf") format("truetype");
 }
+
 @font-face {
   font-family: "Gotham Bold";
   src: url("../../assets/font/Gotham-Font/GothamBold.ttf") format("truetype");
 }
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Gotham Light";
-}
 
-html,
-body {
-  height: 100%;
-}/*# sourceMappingURL=styles.css.map */
+$gothamLight: "Gotham Light";
+$gothamBold: "Gotham Bold";
