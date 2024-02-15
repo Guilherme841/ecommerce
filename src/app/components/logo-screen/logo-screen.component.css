@@ -1,15 +1,14 @@
 .container-slider {
   display: flex;
+  position: relative;
   gap: 400px;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
-  width: 100%;
+  overflow-x: hidden;
+  height: 100vh;
 }
 .container-slider .box-img {
-  display: grid;
-  align-items: center;
-  justify-content: center;
   overflow-x: auto;
   flex-grow: 1;
   flex-shrink: 0;
@@ -17,4 +16,17 @@
   -o-object-fit: cover;
      object-fit: cover;
   scroll-snap-align: start;
+  border: 1px red solid;
+}
+.container-slider .box-img img {
+  width: 100%;
+}
+
+.container-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }/*# sourceMappingURL=logo-screen.component.css.map */
