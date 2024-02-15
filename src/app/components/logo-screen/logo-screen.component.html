@@ -1,12 +1,41 @@
-<section class="container-img" #containerImg>
-  <img id="img1" src="../../../assets/png/image1.png" #images />
-  <img id="img2" src="../../../assets/png/image2.png" #images />
-  <img id="img3" src="../../../assets/png/image3.png" #images />
+<section class="container-slider">
+  <div class="box-img">
+    <img id="img1" src="../../../assets/png/image1.png" #slides />
+    <div class="box-desc">
+      <h1>Choose Products</h1>
+      <p>
+        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+        sint. Velit officia consequat duis enim velit mollit.
+      </p>
+    </div>
+  </div>
+  <div class="box-img">
+    <img id="img2" src="../../../assets/png/image2.png" #slides />
+    <div class="box-desc">
+      <h1>Choose Products</h1>
+      <p>
+        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+        sint. Velit officia consequat duis enim velit mollit.
+      </p>
+    </div>
+  </div>
+  <div class="box-img">
+    <img id="img3" src="../../../assets/png/image3.png" #slides />
+    <div class="box-desc">
+      <h1>Choose Products</h1>
+      <p>
+        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+        sint. Velit officia consequat duis enim velit mollit.
+      </p>
+    </div>
+  </div>
 </section>
-<section style="display: flex; gap: 15px">
-  <!-- <a routerLink="img1">IMAGE 1</a>
-  <a routerLink="img2">IMAGE 2</a>
-  <a routerLink="img3">IMAGE 3</a> -->
+<section class="container-controls" style="display: flex; gap: 15px">
   <button (click)="back()">BACK</button>
+  <div class="box-controls">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
   <button (click)="next()">NEXT</button>
 </section>

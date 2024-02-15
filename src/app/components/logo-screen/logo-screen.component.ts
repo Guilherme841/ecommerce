@@ -8,7 +8,7 @@ import { Component, ElementRef, QueryList, ViewChildren } from '@angular/core';
   styleUrl: './logo-screen.component.scss',
 })
 export class LogoScreenComponent {
-  @ViewChildren('images') images!: QueryList<ElementRef>;
+  @ViewChildren('slides') slides!: QueryList<ElementRef>;
   constructor() {}
   i: number = 0;
   next() {
@@ -16,7 +16,7 @@ export class LogoScreenComponent {
       return;
     } else {
       this.i++;
-      this.images.get(this.i)?.nativeElement.scrollIntoView();
+      this.slides.get(this.i)?.nativeElement.scrollIntoView();
     }
   }
   back() {
@@ -24,7 +24,7 @@ export class LogoScreenComponent {
       return;
     } else {
       this.i--;
-      this.images.get(this.i)?.nativeElement.scrollIntoView();
+      this.slides.get(this.i)?.nativeElement.scrollIntoView();
     }
   }
 }

@@ -1,11 +1,14 @@
-.container-img {
+.container-slider {
   display: flex;
   gap: 400px;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
   width: 100%;
-  img {
+  .box-img {
+    display: grid;
+    align-items: center;
+    justify-content: center;
     overflow-x: auto;
     flex-grow: 1;
     flex-shrink: 0;
@@ -13,4 +16,11 @@
     object-fit: cover;
     scroll-snap-align: start;
   }
+  // .box-desc {
+  // }
+  // img {
+  // }
 }
+// .container-controls{
+//   .box-controls {}
+// }

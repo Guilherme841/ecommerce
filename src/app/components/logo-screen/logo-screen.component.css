@@ -1,4 +1,4 @@
-.container-img {
+.container-slider {
   display: flex;
   gap: 400px;
   overflow-x: auto;
@@ -6,7 +6,10 @@
   scroll-behavior: smooth;
   width: 100%;
 }
-.container-img img {
+.container-slider .box-img {
+  display: grid;
+  align-items: center;
+  justify-content: center;
   overflow-x: auto;
   flex-grow: 1;
   flex-shrink: 0;
