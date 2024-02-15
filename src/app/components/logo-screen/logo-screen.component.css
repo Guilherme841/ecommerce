@@ -38,10 +38,6 @@
      object-fit: cover;
   scroll-snap-align: start;
 }
-.container-slider .box-img img {
-  width: 300px;
-  height: 300px;
-}
 .container-slider .box-desc {
   display: grid;
   gap: 10px;
