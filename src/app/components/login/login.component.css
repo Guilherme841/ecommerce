@@ -1,1 +1,24 @@
-/*# sourceMappingURL=login.component.css.map */
+@font-face {
+  font-family: "Gotham Light";
+  src: url("../../assets/font/Gotham-Font/GothamLight.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Gotham Bold";
+  src: url("../../assets/font/Gotham-Font/GothamBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Gotham Medium";
+  src: url("../../assets/font/Gotham-Font/GothamMedium.ttf") format("truetype");
+}
+.container-login {
+  height: 100%;
+}
+.container-login .box-inputs {
+  display: grid;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.container-login h1 {
+  font-family: "Gotham Bold";
+  font-size: 2em;
+}/*# sourceMappingURL=login.component.css.map */

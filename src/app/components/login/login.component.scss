@@ -1,0 +1,15 @@
+@import "../../sass/font";
+
+.container-login {
+  // display: flex;
+  // flex-direction: column;
+  .box-inputs {
+    display: grid;
+    width: fit-content;
+  }
+  height: 100%;
+  h1 {
+    font-family: $gothamBold;
+    font-size: 2em;
+  }
+}
