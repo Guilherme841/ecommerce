@@ -27,6 +27,23 @@
   font-size: 1em;
 }
 .container-slider {
+  .box-logo {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    z-index: 2;
+    img {
+      animation: scale 400ms;
+    }
+  }
+  @keyframes scale {
+    from {
+      scale: 0;
+    }
+    to {
+      scale: 1;
+    }
+  }
   display: flex;
   position: relative;
   gap: 400px;

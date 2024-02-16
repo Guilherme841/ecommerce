@@ -1,5 +1,12 @@
 import { CommonModule } from '@angular/common';
-import { Component, ElementRef, QueryList, ViewChildren } from '@angular/core';
+import {
+  AfterViewInit,
+  Component,
+  ElementRef,
+  QueryList,
+  ViewChild,
+  ViewChildren,
+} from '@angular/core';
 import { Router, RouterLink } from '@angular/router';
 
 @Component({
@@ -9,13 +16,17 @@ import { Router, RouterLink } from '@angular/router';
   templateUrl: './logo-screen.component.html',
   styleUrl: './logo-screen.component.scss',
 })
-export class LogoScreenComponent {
+export class LogoScreenComponent implements AfterViewInit {
   @ViewChildren('slides') slides!: QueryList<ElementRef>;
+  @ViewChild('img1') img1!: ElementRef;
   constructor(private _router: Router) {}
   i: number = 0;
-  activated: boolean = true;
+  ngAfterViewInit(): void {
+    setTimeout(() => {
+      this.img1.nativeElement?.scrollIntoView?.();
+    }, 600);
+  }
   next() {
-    this.activated = !this.activated;
     if (this.i >= 2) {
       this._router.navigate(['login']);
       return;

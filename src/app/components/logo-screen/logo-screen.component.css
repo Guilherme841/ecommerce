@@ -20,6 +20,13 @@
   z-index: 1;
   background-color: #ffffff;
 }
+.container-controls-top .box-page-count {
+  display: flex;
+  align-items: center;
+}
+.container-controls-top .box-page-count .page {
+  font-family: "Gotham Medium";
+}
 
 .btn {
   padding: 12px;
@@ -40,6 +47,23 @@
   scroll-behavior: smooth;
   overflow-x: hidden;
   height: 100%;
+}
+.container-slider .box-logo {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  z-index: 2;
+}
+.container-slider .box-logo img {
+  animation: scale 400ms;
+}
+@keyframes scale {
+  from {
+    scale: 0;
+  }
+  to {
+    scale: 1;
+  }
 }
 .container-slider .box-img {
   display: flex;
@@ -67,6 +91,7 @@
 .container-slider .box-desc p {
   font-family: "Gotham Medium";
   color: #a8a8a9;
+  padding: 10px;
 }
 
 .container-controls-bottom {
