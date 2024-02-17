@@ -5,33 +5,43 @@
   </h1>
   <div class="box-login">
     <form class="box-inputs">
-      <div class="box-input-field">
-        <input type="text" id="username" placeholder="Username or Email" />
-        <label for="username" class="label"
-          ><img
-            src="../../../assets/png/profile.png"
-            alt="icone de um bonequinho"
-        /></label>
+      <div class="box-input-login">
+        <div class="box-input-field">
+          <input type="text" id="username" placeholder="Username or Email" />
+          <label for="username" class="label"
+            ><img
+              src="../../../assets/png/profile.png"
+              alt="icone de um bonequinho"
+          /></label>
+        </div>
+        <div class="box-input-field">
+          <input type="password" id="password" placeholder="Password" />
+          <label for="password" class="label"
+            ><img
+              src="../../../assets/png/lock.png"
+              alt="icone de um cadeado fazendo referencia ao campo de senha "
+          /></label>
+        </div>
       </div>
-      <div class="box-input-field">
-        <input type="password" id="password" placeholder="Password" />
-        <label for="password" class="label"
-          ><img
-            src="../../../assets/png/lock.png"
-            alt="icone de um cadeado fazendo referencia ao campo de senha "
-        /></label>
+      <div class="buttons">
+        <button class="btn-forgot-pass" type="button">Forgot Password?</button>
+        <button type="submit" class="btn-login">Login</button>
       </div>
-      <button>Forgot Password?</button>
-      <button type="submit">Login</button>
     </form>
     <div class="box-continue">
       <p>- OR Continue With -</p>
       <div class="box-medias">
-        <img src="../../../assets/png/google.png" alt="logo do google" />
-        <img src="../../../assets/png/apple.png" alt="logo da apple" />
-        <img src="../../../assets/png/faceb.png" alt="logo do facebook" />
+        <div class="box-circle-medias">
+          <img src="../../../assets/png/google.png" alt="logo do google" />
+        </div>
+        <div class="box-circle-medias">
+          <img src="../../../assets/png/apple.png" alt="logo da apple" />
+        </div>
+        <div class="box-circle-medias">
+          <img src="../../../assets/png/faceb.png" alt="logo do facebook" />
+        </div>
       </div>
-      <p>Create An Account <button>Sign Up</button></p>
+      <p>Create An Account <a routerLink="/sing-up">Sign Up</a></p>
     </div>
   </div>
 </section>
