@@ -11,14 +11,46 @@
   src: url("../../assets/font/Gotham-Font/GothamMedium.ttf") format("truetype");
 }
 .container-login {
+  background-color: #FFFFFF;
+}
+.container-login h1 {
+  font-family: "Gotham Bold";
+  font-size: 36px;
+}
+.container-login .box-login {
+  display: flex;
+  flex-direction: column;
   height: 100%;
 }
-.container-login .box-inputs {
+.container-login .box-login .box-inputs {
   display: grid;
   width: -moz-fit-content;
   width: fit-content;
 }
-.container-login h1 {
-  font-family: "Gotham Bold";
-  font-size: 2em;
+.container-login .box-login .box-inputs input {
+  background-color: #F3F3F3;
+  padding: 10px 10px 10px 35px;
+  outline: 0;
+  border: 2px solid #a8a8a9;
+  border-radius: 7px;
+}
+.container-login .box-login .box-inputs input::-moz-placeholder {
+  font-weight: bold;
+}
+.container-login .box-login .box-inputs input::placeholder {
+  font-weight: bold;
+}
+.container-login .box-login .box-inputs .box-input-field {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.container-login .box-login .box-inputs .box-input-field label {
+  position: absolute;
+  left: 0;
+  padding: 5px;
+}
+.container-login .box-login .box-inputs .box-input-field label img {
+  width: 24px;
+  height: 24px;
 }/*# sourceMappingURL=login.component.css.map */

@@ -1,15 +1,42 @@
 @import "../../sass/font";
 
 .container-login {
-  // display: flex;
-  // flex-direction: column;
-  .box-inputs {
-    display: grid;
-    width: fit-content;
-  }
-  height: 100%;
+  background-color: #FFFFFF;
   h1 {
     font-family: $gothamBold;
-    font-size: 2em;
+    font-size: 36px;
+  }
+  .box-login {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    .box-inputs {
+      display: grid;
+      width: fit-content;
+      input {
+        background-color: #F3F3F3;
+        padding: 10px 10px 10px 35px;
+        outline: 0;
+        border: 2px solid #a8a8a9;
+        border-radius: 7px;
+        &::placeholder {
+          font-weight: bold;
+        }
+      }
+      .box-input-field {
+        display: flex;
+        align-items: center;
+        position: relative;
+        label {
+          position: absolute;
+          left: 0;
+          padding: 5px;
+          img {
+            width: 24px;
+            height: 24px;
+          }
+        }
+      }
+    }
   }
 }
