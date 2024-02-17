@@ -80,6 +80,8 @@
   background-color: #f83758;
   width: 100%;
   margin-bottom: 75px;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
 }
 .container-login .box-login .box-continue {
   display: grid;
@@ -106,6 +108,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
 }
 .container-login .box-login .box-continue .box-medias .box-circle-medias img {
   width: 20px;
