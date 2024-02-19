@@ -22,4 +22,11 @@ export const routes: Routes = [
         (m) => m.SignUpComponent
       ),
   },
+  {
+    path: 'home-page',
+    loadComponent: () =>
+      import('./components/home-page/home-page.component').then(
+        (m) => m.HomePageComponent
+      ),
+  },
 ];
