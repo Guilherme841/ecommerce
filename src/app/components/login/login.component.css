@@ -36,6 +36,7 @@
   border-radius: 7px;
   width: 100%;
   height: 55px;
+  font-size: 1em;
 }
 .container-login .box-login .box-inputs .box-input-login input::-moz-placeholder {
   font-weight: bold;
@@ -114,4 +115,21 @@
 .container-login .box-login .box-continue .box-medias .box-circle-medias img {
   width: 20px;
   height: 20px;
+}
+
+.btn-login-fake {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-family: "Gotham Medium";
+  font-size: 1em;
+  height: 55px;
+  border: 0;
+  border-radius: 5px;
+  background-color: #f83758;
+  width: 100%;
+  margin-bottom: 75px;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
 }/*# sourceMappingURL=login.component.css.map */

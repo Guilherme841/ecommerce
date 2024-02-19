@@ -1,1 +1,69 @@
-<p>sign-up works!</p>
+<section class="container-login">
+  <h1>
+    Welcome<br />
+    <div style="padding: 5px"></div>
+    Back!
+  </h1>
+  <div class="box-login">
+    <form class="box-inputs">
+      <div class="box-input-login">
+        <div class="box-input-field">
+          <input type="text" id="username" placeholder="Your Email" />
+          <label for="username" class="label"
+            ><img
+              src="../../../assets/png/profile.png"
+              alt="icone de um bonequinho"
+          /></label>
+        </div>
+        <div class="box-input-field">
+          <input type="password" id="password" placeholder="Password" />
+          <label for="password" class="label"
+            ><img
+              src="../../../assets/png/lock.png"
+              alt="icone de um cadeado fazendo referencia ao campo de senha "
+          /></label>
+        </div>
+        <div class="box-input-field">
+          <input
+            type="password"
+            id="confirm-password"
+            placeholder="Confirm Password"
+          />
+          <label for="password" class="label"
+            ><img
+              src="../../../assets/png/lock.png"
+              alt="icone de um cadeado fazendo referencia ao campo de senha "
+          /></label>
+        </div>
+        <div class="box-para-terms">
+          <p class="agree-para-terms">
+            By clicking the
+            <mark style="color: #ff4b26; background-color: transparent"
+              >Register</mark
+            >
+            button, you agree to the public offer
+          </p>
+        </div>
+      </div>
+      <div class="buttons">
+        <!-- <button type="submit" class="btn-login">Login</button> -->
+        <div class="btn-create-fake" routerLink="/sign-up">Create Account</div>
+      </div>
+    </form>
+    <div class="box-continue">
+      <p>- OR Continue With -</p>
+      <div class="box-medias">
+        <div class="box-circle-medias">
+          <img src="../../../assets/png/google.png" alt="logo do google" />
+        </div>
+        <div class="box-circle-medias">
+          <img src="../../../assets/png/apple.png" alt="logo da apple" />
+        </div>
+        <div class="box-circle-medias">
+          <img src="../../../assets/png/faceb.png" alt="logo do facebook" />
+        </div>
+      </div>
+      <p>Create An Account <a routerLink="/sign-up">Sign Up</a></p>
+    </div>
+  </div>
+</section>

@@ -27,6 +27,7 @@
           &::placeholder {
             font-weight: bold;
           }
+          font-size: 1em;
         }
         .box-input-field {
           display: flex;
@@ -103,4 +104,20 @@
       }
     }
   }
+}
+.btn-login-fake {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-family: $gothamMedium;
+  font-size: 1em;
+  height: 55px;
+  border: 0;
+  border-radius: 5px;
+  background-color: #f83758;
+  width: 100%;
+  margin-bottom: 75px;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
 }

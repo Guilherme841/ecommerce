@@ -1,1 +1,139 @@
-/*# sourceMappingURL=sign-up.component.css.map */
+@font-face {
+  font-family: "Gotham Light";
+  src: url("../../assets/font/Gotham-Font/GothamLight.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Gotham Bold";
+  src: url("../../assets/font/Gotham-Font/GothamBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Gotham Medium";
+  src: url("../../assets/font/Gotham-Font/GothamMedium.ttf") format("truetype");
+}
+.container-login {
+  background-color: #ffffff;
+  padding: 30px;
+}
+.container-login h1 {
+  font-family: "Gotham Bold";
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+.container-login .box-login {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.container-login .box-login .box-inputs {
+  display: grid;
+  gap: 30px;
+}
+.container-login .box-login .box-inputs .box-input-login {
+  display: grid;
+  gap: 30px;
+}
+.container-login .box-login .box-inputs .box-input-login input {
+  background-color: #f3f3f3;
+  padding: 10px 10px 10px 35px;
+  outline: 0;
+  border: 2px solid #a8a8a9;
+  border-radius: 7px;
+  width: 100%;
+  height: 55px;
+  font-size: 1em;
+}
+.container-login .box-login .box-inputs .box-input-login input::-moz-placeholder {
+  font-weight: bold;
+}
+.container-login .box-login .box-inputs .box-input-login input::placeholder {
+  font-weight: bold;
+}
+.container-login .box-login .box-inputs .box-input-login .box-input-field {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.container-login .box-login .box-inputs .box-input-login .box-input-field label {
+  position: absolute;
+  left: 0;
+  transform: translateX(7px);
+}
+.container-login .box-login .box-inputs .box-input-login .box-input-field label img {
+  width: 24px;
+  height: 24px;
+}
+.container-login .box-login .box-inputs .buttons {
+  display: grid;
+  justify-items: end;
+  gap: 20px;
+}
+.container-login .box-login .box-inputs .btn-forgot-pass {
+  color: #f83758;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  padding: 10px 0px;
+}
+.container-login .box-login .box-inputs .btn-login {
+  color: #ffffff;
+  font-family: "Gotham Medium";
+  font-size: 1em;
+  height: 55px;
+  border: 0;
+  border-radius: 5px;
+  background-color: #f83758;
+  width: 100%;
+  margin-bottom: 75px;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+.container-login .box-login .box-continue {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  gap: 25px;
+}
+.container-login .box-login .box-continue p:nth-child(1) {
+  font-size: 0.7em;
+}
+.container-login .box-login .box-continue a {
+  font-family: "Gotham Medium";
+  color: #f83758;
+}
+.container-login .box-login .box-continue .box-medias {
+  display: flex;
+  gap: 15px;
+}
+.container-login .box-login .box-continue .box-medias .box-circle-medias {
+  border: 1px solid #f83758;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+.container-login .box-login .box-continue .box-medias .box-circle-medias img {
+  width: 20px;
+  height: 20px;
+}
+
+.btn-create-fake {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-family: "Gotham Medium";
+  font-size: 1em;
+  height: 55px;
+  border: 0;
+  border-radius: 5px;
+  background-color: #f83758;
+  width: 100%;
+  margin-bottom: 75px;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}/*# sourceMappingURL=sign-up.component.css.map */

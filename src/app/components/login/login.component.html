@@ -8,7 +8,7 @@
     <form class="box-inputs">
       <div class="box-input-login">
         <div class="box-input-field">
-          <input type="text" id="username" placeholder="Username or Email" />
+          <input type="text" id="username" placeholder="Username or Email" value="previewEmail@gmail.com" />
           <label for="username" class="label"
             ><img
               src="../../../assets/png/profile.png"
@@ -16,7 +16,7 @@
           /></label>
         </div>
         <div class="box-input-field">
-          <input type="password" id="password" placeholder="Password" />
+          <input type="password" id="password" placeholder="Password" value="123"/>
           <label for="password" class="label"
             ><img
               src="../../../assets/png/lock.png"
@@ -26,7 +26,8 @@
       </div>
       <div class="buttons">
         <button class="btn-forgot-pass" type="button">Forgot Password?</button>
-        <button type="submit" class="btn-login">Login</button>
+        <!-- <button type="submit" class="btn-login">Login</button> -->
+        <div class="btn-login-fake" routerLink="/sign-up">Login</div>
       </div>
     </form>
     <div class="box-continue">
