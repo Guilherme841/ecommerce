@@ -29,4 +29,11 @@ export const routes: Routes = [
         (m) => m.HomePageComponent
       ),
   },
+  {
+    path: 'forgot-pass-page',
+    loadComponent: () =>
+      import('./components/forgot-pass/forgot-pass.component').then(
+        (m) => m.ForgotPassComponent
+      ),
+  },
 ];
