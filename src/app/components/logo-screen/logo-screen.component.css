@@ -54,7 +54,7 @@
   background-color: white;
   z-index: 2;
 }
-.container-slider .box-logo img {
+.container-slider .box-logo .svg-logo {
   animation: scale 400ms;
 }
 @keyframes scale {

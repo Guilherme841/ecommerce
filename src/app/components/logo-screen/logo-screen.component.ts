@@ -8,11 +8,12 @@ import {
   ViewChildren,
 } from '@angular/core';
 import { Router, RouterLink } from '@angular/router';
+import { LogoIconComponent } from '../../svg-components/logo-icon/logo-icon.component';
 
 @Component({
   selector: 'app-logo-screen',
   standalone: true,
-  imports: [CommonModule, RouterLink],
+  imports: [CommonModule, RouterLink, LogoIconComponent],
   templateUrl: './logo-screen.component.html',
   styleUrl: './logo-screen.component.scss',
 })

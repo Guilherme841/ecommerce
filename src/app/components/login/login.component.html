@@ -8,24 +8,36 @@
     <form class="box-inputs">
       <div class="box-input-login">
         <div class="box-input-field">
-          <input type="text" id="username" placeholder="Username or Email" value="previewEmail@gmail.com" />
+          <input
+            type="text"
+            id="username"
+            placeholder="Username or Email"
+            value="previewEmail@gmail.com"
+          />
           <label for="username" class="label"
-            ><img
-              src="../../../assets/png/profile.png"
-              alt="icone de um bonequinho"
-          /></label>
+            ><app-profile-icon></app-profile-icon
+          ></label>
         </div>
         <div class="box-input-field">
-          <input type="password" id="password" placeholder="Password" value="123"/>
+          <input
+            type="password"
+            id="password"
+            placeholder="Password"
+            value="123"
+          />
           <label for="password" class="label"
-            ><img
-              src="../../../assets/png/lock.png"
-              alt="icone de um cadeado fazendo referencia ao campo de senha "
-          /></label>
+            ><app-lock-icon></app-lock-icon
+          ></label>
         </div>
       </div>
       <div class="buttons">
-        <button class="btn-forgot-pass" type="button" routerLink="/forgot-pass-page">Forgot Password?</button>
+        <button
+          class="btn-forgot-pass"
+          type="button"
+          routerLink="/forgot-pass-page"
+        >
+          Forgot Password?
+        </button>
         <!-- <button type="submit" class="btn-login">Login</button> -->
         <div class="btn-login-fake" routerLink="/home-page">Login</div>
       </div>
