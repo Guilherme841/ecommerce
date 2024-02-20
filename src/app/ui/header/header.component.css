@@ -1,1 +1,6 @@
-/*# sourceMappingURL=header.component.css.map */
+header .container-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+}/*# sourceMappingURL=header.component.css.map */
